@@ -1,0 +1,255 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-expand-lg {
+
+    width: 100%;
+    background-color: rgb(0 0 0 / 46%);
+    
+    }
+
+
+.nav-item1 a{
+   color: white;
+  border-radius: 12px;
+  transition: 0.5s;
+  font-weight: 600;
+  font-size: large;
+}
+.container-fluid img{
+   
+    width: 12vh;
+    height: 11vh;
+}
+.nav-item1 {
+    padding: 3px 1px 0px 22px;
+    margin: 0px 20px 0 9px;
+}
+.border-success1{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 2rem;
+    border: 4px solid #592b61;
+    border-radius: 11px;
+    background: #d070db3b;
+}
+
+.nav-item1 a:hover{
+    background-color: rgb(255 255 255 / 46%);
+}
+.navbar-toggler-icon{
+    background-color: white;
+    border-radius: 5px;
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.60)), url(imgs/pexels-photo-13127343.webp);
+    height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  
+}
+  
+  
+.typewriter {
+  text-decoration: none;
+    text-align: justify;
+    color:#fff;
+    padding-top:10em;
+    margin: 2rem 0px 0 27px;
+}
+.typewriter a{
+    text-decoration: none;
+    color: #fff;
+}
+.typewriter h1{
+    font-size: 12vh;
+    
+}
+.sect-2{
+   
+    margin: 1vh 0px 0rem 0;
+    
+    padding: 5rem 0 10rem 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.80)), url(imgs/comm.jpeg);
+    height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.sect-2 h1{
+    text-align: center;
+    color: #fff;
+    margin: -18px 0 6rem 0;
+ 
+}
+
+  
+.for-flex{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+   
+}
+.card2{
+    text-align: center;
+    border-radius: 12px;
+    
+    padding: 0 12px 0 0;
+    
+}
+
+.card2 img{
+    width: 262px;
+    height: 30vh;
+    border-radius: 10px;
+    margin: 2px 0 0 0;
+    overflow: hidden;
+    transition: all ease 1s;
+}
+.card2:hover img{
+    scale: 0.8;
+}
+.card-body1{
+    margin: 0 0 0 0;
+    margin: 2px 0 6px 0;
+    color: white;
+}
+.sect-3 h1{
+   
+    text-align: center;
+    color: white;
+    padding: 0px 0px 92px 1px;
+    margin: -67px 0 0 0;
+
+}
+.typewriter p{
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 24px 0 0 0;
+    font-size: 17px;
+}
+.sect-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.80)), url(imgs/projee.jpeg);
+    height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 9rem 0 0 0;
+   margin: 5px 0 0 0;
+}
+
+
+.for-flex1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.sect-4{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.80)), url(imgs/conc.jpeg);
+    height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   margin: 7px 0 0 0;
+
+}
+.form-floating{
+    width: 85vh;
+}
+.form4{
+    display: grid;
+    justify-content: center;
+    padding: 4rem 0 0 0;
+    
+}
+.card a{
+ text-decoration: none;
+ text-align: center;
+}
+.card{
+    text-align: center;
+    font-size: larger;
+}
+.sect-4 h1{
+    color: white;
+    text-align: center;
+    padding: 6rem 0 0 0;
+
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width:925px){
+    .typewriter h1 {
+        font-size: 4vh;
+    }
+    .border-success1{
+        width: 46%;
+    }
+    .typewriter{
+        margin-top: -3rem;
+        width: 36rem;
+    }
+    .form-floating{
+        width: 40vh;
+    }
+    .card-body1{
+        width: auto;
+    }
+    .card2{
+        margin: -31px 0 0 0;
+    }
+    .for-anim33{
+        animation: none;
+    }
+    .aos-init {
+        animation: none;
+        stop-opacity: unset;
+    }
+}
+@media screen and (max-width:656px){
+    .typewriter{
+        width: 22rem;
+    }
+    .for-flex{
+        display: grid;
+    }
+    .for-flex1{
+        display: grid;
+    }
+    .typewriter p{
+        
+        font-size: 2vh;
+        text-align: left;
+    }
+    .sect-2{
+        height: 145vh;
+    }
+    .sect-3{
+        height:181vh;
+    }
+    .form-floating{
+        width: 35vh;
+    }
+    .for-anim33{
+        animation: none;
+    }
+    .fade-up{
+        animation: none;
+    }
+    .aos-init {
+        animation: none;
+        stop-opacity: unset;
+    }
+
+}
