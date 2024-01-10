@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -219,7 +220,7 @@ footer {
 }
 @media screen and (max-width:656px){
     .typewriter{
-        width: 22rem;
+       width: 16rem;
     }
     .for-flex{
         display: grid;
